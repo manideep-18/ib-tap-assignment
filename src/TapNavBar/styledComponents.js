@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const TapNavBarSection = styled.div`
   display: flex;
   flex: 1;
-  height: 60px;
   background-color: #ffffff;
   box-shadow: 0 1px 2px 0 rgba(31, 45, 61, 0.15);
   flex-direction: row;
@@ -11,7 +10,6 @@ export const TapNavBarSection = styled.div`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     padding: 20px 25px;
-    height: 75px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -37,7 +35,6 @@ export const IbLogoImage = styled.img`
 `;
 export const TapContentsSection = styled.div`
   display: flex;
-  padding: 25px;
   flex: 3;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
@@ -55,6 +52,8 @@ export const TapContentsSection = styled.div`
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
+    display: -webkit-box;
+    flex: initial;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -96,7 +95,7 @@ export const TapContentsImage = styled.img`
 
 export const IbLogoSection = styled.div`
   display: flex;
-  flex: 2;
+  flex: 1;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     display: flex;
@@ -119,13 +118,13 @@ export const IbLogoSection = styled.div`
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
 `;
 
 export const TouchButtonSection = styled.div`
-  margin-left: 10px;
-  flex: 2;
+  margin-left: 25px;
+  flex: 1;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     display: none;
@@ -142,6 +141,7 @@ export const TouchButtonSection = styled.div`
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
+    display: flex;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -175,11 +175,12 @@ export const TapMenuSection = styled.div`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    padding: 40px;
+    padding: 25px;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
+    display: none;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */

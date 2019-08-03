@@ -4,6 +4,7 @@ import "./App.css";
 import { TapMainComponent } from "./styledComponents.js";
 import TapNavBar from "./TapNavBar";
 import LandingPageSection from "./LandingPageSection";
+import TapInvest from "./TapInvest";
 
 class App extends React.Component {
   render() {

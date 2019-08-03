@@ -7,6 +7,7 @@ import {
   TapTextStyle,
   TapSloganSection
 } from "./styledComponents";
+import { TapInvestSection, TapInvestText } from "../TapInvest/styledComponents";
 
 class LandingPageSection extends Component {
   render() {
@@ -24,6 +25,12 @@ class LandingPageSection extends Component {
             </TapSlogan>
           </TapSloganSection>
         </TapTextSections>
+        <TapInvestSection>
+          <TapInvestText>We invest in individuals</TapInvestText>
+          <TapInvestText>
+            to build skills and accelerate their careers
+          </TapInvestText>
+        </TapInvestSection>
       </LandingPageComponent>
     );
   }

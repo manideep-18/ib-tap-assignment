@@ -9,24 +9,30 @@ export const LandingPageComponent = styled.div`
   background-repeat: no-repeat;
   background-image: url(${img});
   background-size: cover;
+  position: relative;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
+    height: 75vh;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
+    height: 55vh;
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
+    height: 55vh;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
+    height: 55vh;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
+    height: 55vh;
   }
 `;
 
@@ -48,11 +54,11 @@ export const TapTextStyle = styled.div`
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
+    flex-direction: row;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    flex-direction: row;
   }
 `;
 

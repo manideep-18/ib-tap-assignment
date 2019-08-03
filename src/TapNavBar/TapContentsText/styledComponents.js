@@ -34,7 +34,7 @@ padding-top:27px;
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    display: none;
+    display: flex;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
