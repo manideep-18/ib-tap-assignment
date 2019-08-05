@@ -37,6 +37,8 @@ export const UpSkillBg = styled.div`
     height: 59vh;
     width: 15vw;
     padding: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 `;
 
