@@ -16,3 +16,7 @@ export const TapSectionWrapperEven = styled.div`
 export const TapSectionWrapperWho = styled.div`
   margin: auto;
 `;
+
+export const SectionWrapperGrey = styled.div`
+  background-color: rgb(247, 251, 255);
+`;

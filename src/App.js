@@ -5,13 +5,15 @@ import {
   TapMainComponent,
   TapSectionWrapper,
   TapSectionWrapperEven,
-  TapSectionWrapperWho
+  TapSectionWrapperWho,
+  SectionWrapperGrey
 } from "./styledComponents.js";
 import TapNavBar from "./TapNavBar";
 import LandingPageSection from "./LandingPageSection";
 import ProgramHighlightSection from "./ProgramHighlightSection";
 import CCPBSection from "./CCPBSection";
 import WhoCanApplySection from "./WhoCanApplySection";
+import CompanyHiringSection from "./CompanyHiringSection";
 
 class App extends React.Component {
   render() {
@@ -28,6 +30,9 @@ class App extends React.Component {
         <TapSectionWrapperWho>
           <WhoCanApplySection />
         </TapSectionWrapperWho>
+        <SectionWrapperGrey>
+          <CompanyHiringSection />
+        </SectionWrapperGrey>
       </TapMainComponent>
     );
   }
