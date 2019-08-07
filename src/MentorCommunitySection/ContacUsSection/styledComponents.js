@@ -1,17 +1,14 @@
 import styled from "styled-components";
-export const OneStopSolutionContentBg = styled.div`
+
+export const ContacUsSectionBg = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(56, 67, 83, 0.24) 0px 2px 2px 0px,
-    rgba(56, 67, 83, 0.12) 0px 0px 2px 0px;
-  width: 13vw;
-
-  padding: 25px;
+  margin: auto;
+  align-items: center;
+  padding: 40px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    width: 74vw;
-    margin-top: 25px;
+    padding: 40px 0px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -20,79 +17,30 @@ export const OneStopSolutionContentBg = styled.div`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    width: 24vw;
-    height: 15vh;
-    margin-left: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    width: 16vw;
-    margin-left: 15px;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    height: 27vh;
-    width: 13vw;
-    margin: 0px 20px 20px 20px;
+    width: 46vw;
   }
 `;
 
-export const OneStopSolutionContentTitle = styled.span`
+export const ContacUsSectionTitle = styled.span`
   font-family: Roboto;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: 0.3px;
-  text-align: center;
-  color: rgb(32, 49, 76);
-  margin: auto;
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    font-size: 20px;
-  }
-
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    font-size: 15px;
-  }
-
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    font-size: 13px;
-  }
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    font-size: 24px;
-  }
-`;
-
-export const OneStopSolutionContentSubTitle = styled.span`
-  font-family: Roboto;
-  margin: auto;
-  font-size: 21px;
-
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.36;
+  line-height: normal;
   letter-spacing: normal;
+  color: rgb(67, 72, 77);
   text-align: center;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    font-size: 16px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -101,19 +49,88 @@ export const OneStopSolutionContentSubTitle = styled.span`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    font-size: 15px;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    font-size: 12px;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    width: 12vw;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 18px;
+  }
+`;
+
+export const DetailsInputBoxBg = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 39vw;
+  margin-top: 30px;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    width: 86vw;
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    flex-direction: column;
+    width: 70vw;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    width: 38vw;
+  }
+`;
+
+export const DetailsInputTextArea = styled.textarea`
+  display: block;
+  background-color: #f5f5f5;
+  border: none;
+  line-height: 50px;
+  margin-top: 40px;
+  padding: 14px 20px;
+  height: 10vh;
+  margin-left: -1vw;
+  width: 35vw;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    height: 10vh;
+    margin-left: 0vw;
+    width: 71vw;
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    height: 4vh;
+    margin-left: 0vw;
+    width: 64vw;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    height: 4vh;
+    margin-left: 0vw;
+    width: 63vw;
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    height: 10vh;
+    margin-left: 0vw;
+    width: 35vw;
   }
 `;

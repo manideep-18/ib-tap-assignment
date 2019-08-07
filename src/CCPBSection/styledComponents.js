@@ -2,6 +2,7 @@ import styled from "styled-components";
 export const CCPBSectionBg = styled.div`
   display: flex;
   flex-direction: column;
+  margin-top: 45px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     padding: 25px;

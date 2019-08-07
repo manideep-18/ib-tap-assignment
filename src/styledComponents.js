@@ -9,7 +9,6 @@ export const TapSectionWrapper = styled.div`
   margin: auto;
 `;
 export const TapSectionWrapperEven = styled.div`
-  margin-top: 45px;
   background-color: rgb(247, 251, 255);
 `;
 
@@ -19,4 +18,12 @@ export const TapSectionWrapperWho = styled.div`
 
 export const SectionWrapperGrey = styled.div`
   background-color: rgb(247, 251, 255);
+`;
+
+export const SectionWrapperDefault = styled.div`
+  margin: auto;
+`;
+
+export const TapSectionFooter = styled.div`
+  margin: auto;
 `;

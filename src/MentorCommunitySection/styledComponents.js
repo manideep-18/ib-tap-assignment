@@ -1,17 +1,13 @@
 import styled from "styled-components";
-export const OneStopSolutionContentBg = styled.div`
+export const MentorCommunitySectionBg = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(56, 67, 83, 0.24) 0px 2px 2px 0px,
-    rgba(56, 67, 83, 0.12) 0px 0px 2px 0px;
-  width: 13vw;
-
-  padding: 25px;
+  align-items: flex-end;
+  padding: 40px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    width: 74vw;
-    margin-top: 25px;
+    padding: 40px 34px;
+    width: 83vw;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -20,79 +16,53 @@ export const OneStopSolutionContentBg = styled.div`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    width: 24vw;
-    height: 15vh;
-    margin-left: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    width: 88vw;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    width: 16vw;
-    margin-left: 15px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    width: 88vw;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    height: 27vh;
-    width: 13vw;
-    margin: 0px 20px 20px 20px;
+    margin: auto;
+    width: 50vw;
   }
 `;
 
-export const OneStopSolutionContentTitle = styled.span`
+export const MentorCommunitySectionTitle = styled.span`
   font-family: Roboto;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: 0.3px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgb(67, 72, 77);
   text-align: center;
-  color: rgb(32, 49, 76);
   margin: auto;
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    font-size: 20px;
-  }
-
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    font-size: 15px;
-  }
-
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    font-size: 13px;
-  }
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    font-size: 24px;
-  }
 `;
 
-export const OneStopSolutionContentSubTitle = styled.span`
+export const MentorCommunitySectionSubTitle = styled.span`
   font-family: Roboto;
-  margin: auto;
-  font-size: 21px;
-
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.36;
+  line-height: 1.44;
   letter-spacing: normal;
   text-align: center;
+  color: rgb(94, 105, 119);
+  margin-top: 5px;
+`;
+
+export const MentorCommunitySectionSubTitlesBg = styled.div`
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    font-size: 16px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -101,19 +71,55 @@ export const OneStopSolutionContentSubTitle = styled.span`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    font-size: 15px;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    font-size: 12px;
+    margin: auto;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    width: 12vw;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 18px;
+  }
+`;
+
+export const ManyMoreText = styled.span`
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.81;
+  letter-spacing: normal;
+  color: rgb(94, 105, 119);
+  margin-top: 10px;
+`;
+
+export const MentorCommunityBorderImage = styled.img`
+  height: 2px;
+  width: 60vw;
+  margin: auto;
+  margin-top: 70px;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    width: 75vw;
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    width: 75vw;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    width: 50vw;
   }
 `;
