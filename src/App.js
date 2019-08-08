@@ -23,6 +23,7 @@ import CourseTracksSection from "./CourseTracksSection";
 import MentorCommunitySection from "./MentorCommunitySection";
 import IbuildLogoContentsection from "./IbuildLogoContentsection";
 import FooterSection from "./FooterSection";
+import { CopyRightText } from "./FooterSection/styledComponents";
 
 class App extends React.Component {
   render() {
@@ -57,14 +58,12 @@ class App extends React.Component {
         <TapSectionWrapperWho>
           <MentorCommunitySection />
         </TapSectionWrapperWho>
-        <TapSectionWrapper>
-          <MentorCommunitySection />
-        </TapSectionWrapper>
         <SectionWrapperDefault>
           <IbuildLogoContentsection />
         </SectionWrapperDefault>
         <TapSectionFooter>
           <FooterSection />
+          <CopyRightText>© 2019 iBuild</CopyRightText>
         </TapSectionFooter>
       </TapMainComponent>
     );

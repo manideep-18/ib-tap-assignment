@@ -1,11 +1,17 @@
 import React, { Component } from "react";
+import {
+  AddressLocationsDetailsBg,
+  AddressLocationsTitle,
+  AddressLocationsDetails,
+  AddressLocationsBg
+} from "./styledComponents";
 
 class AddressLocations extends Component {
   render() {
     return (
       <AddressLocationsBg>
         <AddressLocationsTitle>{this.props.name}</AddressLocationsTitle>
-        {this.props.AddressLocations.map(AddressLocation => (
+        {this.props.fullDetails.map(AddressLocation => (
           <AddressLocationsDetailsBg>
             <AddressLocationsDetails>
               {AddressLocation.Floor}
@@ -17,7 +23,7 @@ class AddressLocations extends Component {
               {AddressLocation.district}
             </AddressLocationsDetails>
             <AddressLocationsDetails>
-              {AddressLocation.State}
+              {AddressLocation.state}
             </AddressLocationsDetails>
           </AddressLocationsDetailsBg>
         ))}

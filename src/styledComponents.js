@@ -25,5 +25,5 @@ export const SectionWrapperDefault = styled.div`
 `;
 
 export const TapSectionFooter = styled.div`
-  margin: auto;
+  background-color: #2d3a51;
 `;

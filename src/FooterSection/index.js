@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FooterSectionBg } from "./styledComponents";
+import { FooterSectionBg, CopyRightText } from "./styledComponents";
 import IbGroupIntiative from "./IbGroupIntiative";
 import SubscribeAddress from "./SubscribeAddress";
 import CompanyReachUs from "./CompanyReachUs";

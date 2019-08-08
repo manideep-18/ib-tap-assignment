@@ -54,6 +54,7 @@ export const IbuildContent = styled.span`
   text-align: center;
   font-family: Roboto;
   margin-top: 10px;
+  margin-bottom: 10px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     font-size: 13px;

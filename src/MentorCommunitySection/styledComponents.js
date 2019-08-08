@@ -6,8 +6,7 @@ export const MentorCommunitySectionBg = styled.div`
   padding: 40px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    padding: 40px 34px;
-    width: 83vw;
+    padding: 0px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

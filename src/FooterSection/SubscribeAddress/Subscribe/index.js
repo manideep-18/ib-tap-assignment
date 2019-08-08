@@ -14,7 +14,7 @@ class Subscribe extends Component {
         <SubscribeTitle>SUBSCRIBE NOW</SubscribeTitle>
         <SubscribeInputButtonBg>
           <SubscribeInput type="text" placeholder="Enter Email Id" />
-          <SubscribeButton>Subscribe</SubscribeButton>
+          <SubscribeButton>SUBSCRIBE</SubscribeButton>
         </SubscribeInputButtonBg>
       </SubscribeBg>
     );

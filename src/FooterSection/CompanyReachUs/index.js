@@ -3,7 +3,7 @@ import { CompanyReachUsBg } from "./styledComponents";
 import Company from "./Company";
 import ReachUs from "./ReachUs";
 
-class CompanyReachUs extends Component {
+class CompanyReacUs extends Component {
   render() {
     return (
       <CompanyReachUsBg>
@@ -13,4 +13,4 @@ class CompanyReachUs extends Component {
     );
   }
 }
-export default CompanyReachUs;
+export default CompanyReacUs;
