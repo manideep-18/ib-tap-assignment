@@ -5,6 +5,7 @@ import {
   TrainingHubsSubTitle
 } from "./styledComponents";
 import FeaturesSection from "./FeaturesSection";
+import ImageSlick from "./ImageSlick";
 
 class TrainingHubs extends Component {
   render() {
@@ -15,6 +16,7 @@ class TrainingHubs extends Component {
           Global presence to nurture talent beyond boundaries
         </TrainingHubsSubTitle>
         <FeaturesSection />
+        <ImageSlick />
       </TrainingHubsBg>
     );
   }

@@ -5,7 +5,7 @@ export const CCPBSectionBg = styled.div`
   margin-top: 45px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    padding: 25px;
+    padding: 0px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -73,7 +73,9 @@ export const CCPBImage = styled.img`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     height: 190px;
-    width: 320px;
+    width: 300px;
+    object-fit: contain;
+    padding-left: 8px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -108,6 +110,7 @@ export const CCPBTextSection = styled.div`
 
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
+    padding: 25px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

@@ -94,7 +94,7 @@ export const SubscribeInput = styled.input`
   padding: 0 10px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    padding: 0px 35px;
+    padding: 0px 9px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

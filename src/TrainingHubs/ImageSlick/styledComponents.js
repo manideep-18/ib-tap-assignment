@@ -1,20 +1,15 @@
 import styled from "styled-components";
 
-export const TapNavBarSection = styled.div`
-  display: flex;
-  flex: 1;
-  background-color: #ffffff;
-  box-shadow: 0 1px 2px 0 rgba(31, 45, 61, 0.15);
-  flex-direction: row;
-  align-items: center;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 1;
+export const ImageSlickBg = styled.div`
+  width: 68vw;
+  height: 60vh;
+  margin: auto;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    padding: 20px 25px;
+    height: 70vh;
+    width: 85vw;
+    margin: 0px;
+    padding: 20px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -23,7 +18,70 @@ export const TapNavBarSection = styled.div`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    padding: 0px 35px;
+    width: 90vw;
+    height: 53vh;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    width: 96vw;
+    height: 47vh;
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    width: 68vw;
+    height: 62vh;
+    margin: auto;
+  }
+`;
+
+export const SlickImage = styled.img`
+  height: 42%;
+  width: 16vw;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    height: 45vh;
+    width: 65vw;
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    height: 37vh;
+    width: 40vw;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    height: 37vh;
+    width: 22vw;
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    height: 42%;
+    width: 16vw;
+  }
+`;
+
+export const SlickImageBg = styled.div`
+  display: flex;
+  flex-direction: column;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    margin-right: 10px;
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
@@ -34,16 +92,28 @@ export const TapNavBarSection = styled.div`
   @media only screen and (min-width: 1200px) {
   }
 `;
-export const IbLogoImage = styled.img`
-  width: 60px;
-  object-fit: contain;
-`;
-export const TapContentsSection = styled.div`
-  display: flex;
-  flex: 3;
+
+export const SlickText = styled.span`
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #333;
+  display: inline;
+  text-align: center;
+  margin-right: 18px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(151, 160, 176, 0.44),
+    0 -1px 1px 0 rgba(151, 160, 176, 0.12);
+  padding: 15px;
+  border-bottom-style: groove;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    display: none;
+    margin-right: 0px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -52,26 +122,26 @@ export const TapContentsSection = styled.div`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    display: none;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    display: -webkit-box;
-    flex: initial;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    display: flex;
-    justify-content: flex-end;
   }
 `;
 
-export const TapContentsImage = styled.img`
-  margin-left: 5px;
-  width: 8px;
+export const ImageNext = styled.img`
+  height: 12px;
+  width: 20px;
   object-fit: contain;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(151, 160, 176, 0.44) 0px 1px 2px 0px,
+    rgba(151, 160, 176, 0.12) 0px -1px 1px 0px;
+  padding: 8px 13px;
+
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     display: none;
@@ -79,7 +149,6 @@ export const TapContentsImage = styled.img`
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
-    display: none;
   }
 
   /* Medium devices (landscape tablets, 768px and up) */
@@ -89,21 +158,57 @@ export const TapContentsImage = styled.img`
 
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    display: none;
   }
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     display: block;
+    position: absolute;
+    bottom: -8vh;
+    left: 49vw;
   }
 `;
 
-export const IbLogoSection = styled.div`
+export const ImagePrev = styled.img`
+  height: 12px;
+  width: 20px;
+  object-fit: contain;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(151, 160, 176, 0.44) 0px 1px 2px 0px,
+    rgba(151, 160, 176, 0.12) 0px -1px 1px 0px;
+  padding: 8px 13px;
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    display: block;
+    position: absolute;
+    left: 45vw;
+    bottom: -8vh;
+  }
+`;
+
+export const ImageBg = styled.div`
   display: flex;
-  flex: 1;
+  flex-direction: column;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    display: flex;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -112,8 +217,6 @@ export const IbLogoSection = styled.div`
 
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    display: flex;
-    padding-left: 40px;
   }
 
   /* Large devices (laptops/desktops, 992px and up) */
@@ -122,79 +225,6 @@ export const IbLogoSection = styled.div`
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
-    display: flex;
-    justify-content: center;
+    position: relative;
   }
-`;
-
-export const TouchButtonSection = styled.div`
-  margin-left: 25px;
-  flex: 1;
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    display: none;
-  }
-
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    display: none;
-  }
-
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    display: flex;
-  }
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    display: flex;
-  }
-`;
-export const TouchButton = styled.button`
-  width: 100px;
-  height: 40px;
-  border-radius: 5px;
-  border: 2px solid #d35400;
-  color: #d35400;
-  background: white;
-  &:hover {
-    background: #d35400;
-    color: white;
-  }
-`;
-
-export const TapMenuSection = styled.div`
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    padding: 25px;
-  }
-
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    display: none;
-  }
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    display: none;
-  }
-`;
-
-export const TapMenuIcon = styled.img`
-  width: 40px;
-  height: 40px;
 `;

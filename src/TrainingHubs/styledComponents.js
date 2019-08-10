@@ -6,7 +6,7 @@ export const TrainingHubsBg = styled.div`
   margin-top: 60px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    padding: 25px;
+    padding: 0px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -23,6 +23,7 @@ export const TrainingHubsBg = styled.div`
 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
+    position: relative;
   }
 `;
 
@@ -69,6 +70,7 @@ export const TrainingHubsSubTitle = styled.span`
   margin-top: 25px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
+    padding: 25px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
