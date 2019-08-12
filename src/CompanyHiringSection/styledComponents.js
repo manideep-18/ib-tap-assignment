@@ -6,7 +6,7 @@ export const CompanyHiringBg = styled.div`
   align-items: center;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    padding: 0px 25px 25px 25px;
+    padding: 0px 25px 40px 25px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

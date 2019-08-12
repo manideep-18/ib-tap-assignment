@@ -6,7 +6,7 @@ export const ImageSlickBg = styled.div`
   margin: auto;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    height: 70vh;
+    height: 58vh;
     width: 85vw;
     margin: 0px;
     padding: 20px;

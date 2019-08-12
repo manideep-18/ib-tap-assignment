@@ -9,13 +9,12 @@ import {
 import { HighlightCardList } from "./HighlightCardContents.js";
 
 class ProgramHighlightSection extends Component {
-  HighlightCards = HighlightCardList;
   render() {
     return (
       <ProgramHighlightBg>
         <ProgramTitle>Program Highlights</ProgramTitle>
         <ProgramHighlightCards>
-          {this.HighlightCards.map(HighlightItem => (
+          {HighlightCardList.map(HighlightItem => (
             <HighlightCard
               src={HighlightItem.src}
               title={HighlightItem.title}

@@ -75,7 +75,7 @@ export const CCPBImage = styled.img`
     height: 190px;
     width: 300px;
     object-fit: contain;
-    padding-left: 8px;
+    margin: auto;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

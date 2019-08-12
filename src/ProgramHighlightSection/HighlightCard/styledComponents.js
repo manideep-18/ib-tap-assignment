@@ -11,6 +11,7 @@ export const LogoImg = styled.img`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     height: 50px;
+    margin-left: 25px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -50,6 +51,7 @@ export const Title = styled.span`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     width: 60vw;
+    margin-left: 10px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -84,6 +86,7 @@ export const SubTitle = styled.span`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     width: 70vw;
+    margin-left: 10px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

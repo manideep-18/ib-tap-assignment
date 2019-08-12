@@ -37,7 +37,7 @@ export const EachImage = styled.img`
   padding: 0px 50px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    padding: ${props => (props.status ? "0px 13px" : "0px 16px")};
+    padding: ${props => (props.status ? "0px 20px" : "0px 25px")};
     height: ${props => (props.status ? "53px" : "80px")};
     width: ${props => (props.status ? "120px" : "115px")};
     margin-top: ${props => (props.status ? "13px" : "")};

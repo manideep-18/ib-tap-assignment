@@ -7,7 +7,6 @@ export const OneStopSolutionContentsBg = styled.div`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     width: 85vw;
-    margin-top: 25px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

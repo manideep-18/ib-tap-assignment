@@ -11,7 +11,7 @@ export const UpSkillBg = styled.div`
   @media only screen and (max-width: 600px) {
     padding: 25px;
     width: 72vw;
-    height: 96vh;
+    height: 65vh;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -126,6 +126,7 @@ export const UpSkillDescription = styled.p`
   color: rgb(32, 49, 76);
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
+    font-size: 19px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

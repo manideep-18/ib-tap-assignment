@@ -20,7 +20,7 @@ export const CourseTracksListBg = styled.div`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     margin-left: 0px;
-    height: 60vh;
+    height: 53vh;
     width: 63vw;
   }
 

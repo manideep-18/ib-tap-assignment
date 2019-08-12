@@ -8,7 +8,7 @@ export const CourseTracksSectionBg = styled.div`
   padding: 40px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    padding: 40px 25px;
+    padding: 0px 25px 40px 25px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

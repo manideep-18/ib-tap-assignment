@@ -36,6 +36,7 @@ export const AdvantageImg = styled.img`
   width: 50px;
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
+    margin-left: 25px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -70,6 +71,7 @@ export const AdvantageText = styled.span`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     font-size: 16px;
+    margin-left: 10px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */

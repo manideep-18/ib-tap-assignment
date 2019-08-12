@@ -73,20 +73,18 @@ export default class ImageSlick extends React.Component {
       ]
     };
     return (
-      <div>
-        <ImageSlickBg>
-          <Slider {...settings}>
-            {ImagesLists.map(image => (
-              <ImageBg>
-                <SlickImageBg>
-                  <SlickImage src={image.src} />
-                  <SlickText>{image.title}</SlickText>
-                </SlickImageBg>
-              </ImageBg>
-            ))}
-          </Slider>
-        </ImageSlickBg>
-      </div>
+      <ImageSlickBg>
+        <Slider {...settings}>
+          {ImagesLists.map(image => (
+            <ImageBg>
+              <SlickImageBg>
+                <SlickImage src={image.src} />
+                <SlickText>{image.title}</SlickText>
+              </SlickImageBg>
+            </ImageBg>
+          ))}
+        </Slider>
+      </ImageSlickBg>
     );
   }
 }

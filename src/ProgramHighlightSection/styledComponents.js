@@ -7,6 +7,7 @@ export const ProgramHighlightBg = styled.div`
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     width: 76vw;
+    padding-bottom: 50px;
   }
 
   /* Small devices (portrait tablets and large phones, 600px and up) */
